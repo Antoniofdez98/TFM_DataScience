@@ -1,0 +1,36 @@
+{
+  "name": "myapp-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "sdk:gen": "orval",
+    "build": "npm run sdk:gen && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@tanstack/react-query": "^5.21.1",
+    "next": "^14.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "eslint": "^8.51.0",
+    "@types/node": "^20.5.7",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "orval": "^6.22.0",
+    "eslint-config-next": "^14.2.0",
+    "prettier": "^3.2.5",
+    "eslint-config-prettier": "^9.0.0"
+  }
+}
